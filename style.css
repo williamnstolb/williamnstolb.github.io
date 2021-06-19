@@ -28,7 +28,8 @@ a {
   text-align: center;
 }
 
-.header-foto, .header-texto{
+.header-foto,
+.header-texto {
   margin: 5px;
   display: inline-block;
 }
@@ -37,7 +38,8 @@ a {
   padding: 10px;
   background-color: brown;
 }
-.itemimpar {
+
+ul li:nth-child(odd) {
   font-style: italic;
   font-family: monospace;
 }
