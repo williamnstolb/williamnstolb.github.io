@@ -2,21 +2,42 @@ h1 {
   color: #4CC9F0;
   text-align: center;
 }
+
 body {
- background-color:#3b034d;
- color:floralwhite;
+  background-color: #3b034d;
+  color: floralwhite;
 }
+
 h2 {
- font-family:cursive;
+  font-family: cursive;
 }
+
 p {
- font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 a {
- color: lavenderblush;
+  color: lavenderblush;
 }
 
 .skills {
- font-size: 20px;
+  font-size: 20px;
+}
+
+.header-name {
+  text-align: center;
+}
+
+.header-foto, .header-texto{
+  margin: 5px;
+  display: inline-block;
+}
+
+.header-foto {
+  padding: 10px;
+  background-color: brown;
+}
+.itemimpar {
+  font-style: italic;
+  font-family: monospace;
 }
